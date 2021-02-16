@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    border:0;
+    min-height:100%;
+    width:100%;
+    padding:0;
+    background-size: cover;
+    background : no-repeat center center fixed;
+    transition: ease-in-out;
+}
+
+.js-title{
+    color:white;
+    text-shadow: 0 0 10px #fff,
+		 0 0 20px #fff,
+		 0 0 30px #fff,
+		 0 0 40px #ff00de,
+		 0 0 70px #ff00de,
+		 0 0 80px #ff00de,
+		 0 0 100px #ff00de,
+         0 0 150px #ff00de;
+    transition: ease-in-out;
+}
+
+.js-location{
+    color:white;
+    text-shadow: 0 0 10px #fff,
+		 0 0 20px #fff,
+		 0 0 30px #fff,
+		 0 0 40px #ff00de,
+		 0 0 70px #ff00de,
+		 0 0 80px #ff00de,
+		 0 0 100px #ff00de,
+         0 0 150px #ff00de;
+    transition: ease-in-out;
+    font-size:45pt;
+}
+
+.js-CSS-Clock{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family:"Agency FB";
+    font-size: 100pt;
+}
+
+.js-toDoForm {
+    margin:20px;
+    display:inline-flex;
+}
+
+input{
+    width:200px;
+    height: 30px;
+}
+
+.js-toDoList {
+    color:white;
+    text-shadow: 0 0 10px #fff,
+		 0 0 20px #fff,
+		 0 0 30px #fff;
+    transition: ease-in-out;
+    font-size:20pt;
+}
