@@ -99,15 +99,11 @@ input{
     top:-70px;
     width:100%;
     text-align: center;
+    color:white;
 }
 
-.js-nav a{
-    font-size: 25px;
-    text-transform: uppercase;
-    padding: 0 18PX;
-    text-decoration: NONE;
-    color: #fff;
-    font-weight: 500;
-    text-shadow: 0 0 20px #000000;
-    transition: 0.3s;
+button{
+    all: unset;
+    background-color: transparent;
+    font-size:20px;
 }
