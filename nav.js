@@ -4,11 +4,11 @@ const navContact = document.querySelector("#js-navContact")
 
 const hideNShowAbout = document.querySelector(".about-hidden")
 const aboutOverlay = hideNShowAbout.querySelector(".about-overlay")
-const closeAbout = hideNShowAbout.querySelector("#btn-about-close")
+const closeAbout = hideNShowAbout.querySelector("button")
 
 const hideNShowContact = document.querySelector(".contact")
 const contactOverlay = hideNShowContact.querySelector(".contact-overlay")
-const closeContact = hideNShowContact.querySelector("#btn-contact-close")
+const closeContact = hideNShowContact.querySelector("button")
 
 
 function handleHoverAbout(event) {
@@ -44,21 +44,21 @@ function handleOutContact(event) {
     navContact.style.textShadow = "none"
 }
 
-function handleopenAbout(event) {
-    console.log("clicked")
-    navAbout.classList.remove("hidden")
+const handleopenAbout = () => {
+    hideNShowAbout.classList.remove("about-hidden")
 }
 
-function handleopenContact(event) {
-    navContact.classList.remove("hidden")
+const handleopenContact = () => {
+    hideNShowContact.classList.remove("contact-hidden")
 }
 
-function handlecloseAbout(event){
-    hideNShowAbout.classList.add("hidden")
+const handlecloseAbout = () => {
+    hideNShowAbout.classList.add("about-hidden")
+
 }
 
-function handlecloseContact(event){
-    hideNShowAbout.classList.add("hidden")
+const handlecloseContact = () => {
+    hideNShowContact.classList.add("contact-hidden")
 }
 
 function init(){
