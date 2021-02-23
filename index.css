@@ -6,7 +6,7 @@ body{
     padding:0;
     background-size: cover;
     background : no-repeat center center fixed;
-    transition: ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .js-title{
@@ -107,6 +107,7 @@ button{
     all: unset;
     background-color: transparent;
     font-size:20px;
+    transition: 0.1s ease-in-out;
 }
 
 #btn-about-close, #btn-contact-close{
@@ -144,7 +145,6 @@ button{
     padding: 75px 150px;
     background-color: rgba(0,0,0,0.8);
     font-size:25pt;
-
 }
 
 .contact-hidden, .about-hidden{
